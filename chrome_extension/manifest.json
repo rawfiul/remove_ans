@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Remove Ans",
+    "description": "Remove Ans with one click",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Two Buttons"
+    },
+    "permissions": ["scripting"],
+    "host_permissions": ["<all_urls>"],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  

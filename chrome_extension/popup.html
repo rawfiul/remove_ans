@@ -2,12 +2,15 @@
 <html>
 <head>
   <style>
-    body {
+    html, body {
+      width: 400px; /* Set the popup width */
+      height: auto; /* Allow the height to adjust based on content */
       background-color: #fff;  
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin: 20px;
+      margin: 0; /* Remove any default margins */
+      padding: 10px; /* Add padding to make the UI look better */
       font-family: "Georgia", serif;
     }
 
@@ -23,12 +26,13 @@
       border-radius: 5px;
       background-color: #282828;
       cursor: pointer;
-      color: white
+      color: white;
+      border: none; /* Remove the border for a cleaner look */
     }
 
     button img {
       margin-left: 10px;
-      height: 120px;
+      height: 120px; /* Reduce the image height to fit better */
     }
 
     button:hover {
