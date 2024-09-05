@@ -1,2 +1,6 @@
 # remove_ans
-Removes Answered from IITM Online Degree Assignments
+## Currently a firefox extension
+
+Removes Answers from IITM Online Degree Assignments so that you can practice again.
+
+
