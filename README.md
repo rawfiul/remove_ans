@@ -10,7 +10,7 @@ Watch it in action:
 3. Type ```chrome://extensions/``` as URL in Chrome browser.
 4. Find the "Developer mode" toggle on the top right of the page and enable it.
 5. Click "Load Unpacked" and select the extracted folder, not the .zip file
-5. How to install for chrome: ![How to install this extension](https://github.com/rawfiul/remove_ans/blob/main/readme_assets/chrome_loading.gif)
+5. How to install for chrome: ![How to install this extension](https://github.com/rawfiul/remove_ans/blob/main/readme_assets/Chrome_loading.gif)
 
 ### Firefox Extension
 1. Download the zip: [Link](https://raw.githubusercontent.com/rawfiul/remove_ans/main/firefox_extension/remove_ans_firefox_extension.zip)
