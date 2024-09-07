@@ -1,28 +1,12 @@
-// Makes sure the Individual Mode cant be reclicked after clicking once
-document.addEventListener('DOMContentLoaded', function() {
-    var myButton = document.getElementById('ind-mode');
-    myButton.addEventListener('click', function() {
-        myButton.disabled = true;
-    });
-});
-
-
-
 // Function to clear inputs
 function clearInputs() {
     document.querySelectorAll('input').forEach(function(input) {
+        input.disabled = false;
         if (input.type === 'text' || input.type === 'password' || input.type === 'email' || input.type === 'number') {
             input.value = '';
         } else if (input.type === 'checkbox' || input.type === 'radio') {
             input.checked = false;
         }
-    });
-    // Select all disabled input elements
-    const disabledInputs = document.querySelectorAll('input:disabled');
-
-    // Enable each input
-    disabledInputs.forEach(input => {
-        input.disabled = false;
     });
 }
 
@@ -37,12 +21,12 @@ function removeFeedbackElements() {
 // Function to enable individual mode
 function indMode() {
     // Clicks the submit button if it exists
-    const submitButton = document.querySelector('.gcb-button.qt-check-answer-button'); 
+    var submitButton = document.querySelector('.gcb-button.qt-check-answer-button'); 
     if (submitButton) {
         submitButton.click();
         // Exists the dailog popup
         setTimeout(() => {
-            const secondButton = document.querySelector('.btn.btn-link.btn-cancel.ng-star-inserted');
+            var secondButton = document.querySelector('.btn.btn-link.btn-cancel.ng-star-inserted');
             if (secondButton) {
                 secondButton.click();
             }
@@ -51,23 +35,16 @@ function indMode() {
 
     // Removes all existing inputs from entire page
     document.querySelectorAll('input').forEach(function(input) {
+        input.disabled = false;
         if (input.type === 'text' || input.type === 'password' || input.type === 'email' || input.type === 'number') {
             input.value = '';
         } else if (input.type === 'checkbox' || input.type === 'radio') {
             input.checked = false;
         }
     });
-    // Select all disabled input elements
-    const disabledInputs = document.querySelectorAll('input:disabled');
-
-    // Enable each input
-    disabledInputs.forEach(input => {
-        input.disabled = false;
-    });
-
 
     // Select all h3 elements with the class feedback-header
-    const headers = document.querySelectorAll('h3.feedback-header');
+    var headers = document.querySelectorAll('h3.feedback-header');
 
     headers.forEach(header => {
     // Check if the header contains both span and br elements
@@ -80,12 +57,12 @@ function indMode() {
 
     // Adds the feedback button to each question
     document.querySelectorAll('.gcb-question-row').forEach(questionDiv => {
-        const feedbackDiv = questionDiv.querySelector('.qt-feedback');
+        var feedbackDiv = questionDiv.querySelector('.qt-feedback');
         
         if (feedbackDiv) {
             feedbackDiv.style.display = 'none';
 
-            const toggleButton = document.createElement('button');
+            var toggleButton = document.createElement('button');
             toggleButton.innerText = 'Show Feedback';
             toggleButton.style.marginBottom = '10px';
 

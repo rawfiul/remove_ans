@@ -1,8 +1,10 @@
 # Remove Ans
 
 Removes Answers from IITM Online Degree Assignments so that you can practice again.
-Watch it in action:
+
 Individual Mode : This will remove all answers and hide the feedback behind a toggle button for each question.
+
+Watch it in Action:
 ![Watch it in action](https://github.com/rawfiul/remove_ans/blob/main/readme_assets/In_Action.gif)
 
 ### Chrome Extension
