@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Remove Ans",
-    "version": "2",
-    "description": "Remove Ans with one click",
+    "name": "Remove Ans - IITM Assignments",
+    "version": "2.5",
+    "description": "Remove Ans from IITM Assignments",
     "permissions": ["activeTab"],
     "browser_specific_settings": {
       "gecko": {
@@ -18,6 +18,5 @@
       "default_icon": {
         "16": "icon16.png"
       }
-    
     }
-  }
+}

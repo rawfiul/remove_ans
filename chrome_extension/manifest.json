@@ -1,17 +1,17 @@
 {
     "manifest_version": 3,
-    "name": "Remove Ans",
+    "name": "Remove Ans - IITM Assignments",
     "description": "Remove Ans with one click",
     "version": "1.0",
     "action": {
       "default_popup": "popup.html",
-      "default_title": "Two Buttons"
+      "default_title": "Remove Ans - IITM Assignments"
     },
     "permissions": ["scripting"],
-    "host_permissions": ["<all_urls>"],
+    "host_permissions": ["https://*.iitm.ac.in/*"],
     "icons": {
       "48": "icon48.png",
       "96": "icon96.png"
     }
-  }
+}
   
