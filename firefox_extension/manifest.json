@@ -1,14 +1,23 @@
 {
     "manifest_version": 2,
     "name": "Remove Ans",
-    "version": "1.0",
+    "version": "1.3",
     "description": "Remove Ans with one click",
     "permissions": ["activeTab"],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "{bfd497b6-e9c1-488e-a8fd-8417bf5b2e6f}"
+      }
+    },
+    "icons": {
+      "48": "icon48.png",
+      "96": "icon96.png"
+    },
     "browser_action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "icon.png"
+        "16": "icon16.png"
       }
+    
     }
   }
-  
