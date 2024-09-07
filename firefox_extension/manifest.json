@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Remove Ans",
-    "version": "1.5",
+    "version": "2",
     "description": "Remove Ans with one click",
     "permissions": ["activeTab"],
     "browser_specific_settings": {
