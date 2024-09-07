@@ -16,15 +16,15 @@ document.getElementById('remove-ans').addEventListener('click', () => {
 
 
 document.getElementById('remove-feedback').addEventListener('click', () => {
-    const scriptToInsert = `document.querySelectorAll('.feedback-header, .faculty-answer', .qt-feedback).forEach(function(element) {
+    const scriptToInsert = `document.querySelectorAll('.feedback-header, .faculty-answer, .qt-feedback').forEach(function(element) {
         element.remove();
     });`
 
     // Inject the script into the active tab
     browser.tabs.executeScript({
         code: scriptToInsert
-      });
     });
+});
 
 
 document.getElementById('ind-mode').addEventListener('click', () => {
