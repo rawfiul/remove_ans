@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Remove Ans - IITM Assignments",
-    "version": "2.5",
+    "version": "3",
     "description": "Remove Ans from IITM Assignments",
     "permissions": ["activeTab"],
     "browser_specific_settings": {
