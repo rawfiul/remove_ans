@@ -12,6 +12,7 @@
     "icons": {
       "48": "icon48.png",
       "96": "icon96.png"
-    }
+    },
+    "update_url": "https://yourdomain.com/updates.xml"
 }
   

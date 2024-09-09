@@ -6,7 +6,8 @@
     "permissions": ["activeTab"],
     "browser_specific_settings": {
       "gecko": {
-        "id": "{bfd497b6-e9c1-488e-a8fd-8417bf5b2e6f}"
+        "id": "{bfd497b6-e9c1-488e-a8fd-8417bf5b2e6f}",
+        "update_url": "https://raw.githubusercontent.com/rawfiul/remove_ans/main/firefox_extension/updates.json"
       }
     },
     "icons": {

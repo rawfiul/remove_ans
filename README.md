@@ -16,12 +16,7 @@ Watch it in Action:
 5. Visual Instruction: ![How to install this extension](https://github.com/rawfiul/remove_ans/blob/main/readme_assets/Chrome_loading.gif)
 
 ### Firefox Extension
-1. Download the zip: [Link](https://raw.githubusercontent.com/rawfiul/remove_ans/main/firefox_extension/remove_ans_firefox.zip)
-2. Type ```about:debugging``` as URL in firefox browser.
-3. From the tabs section on the left, go to "This Firefox" tab.
-4. Click on "Load Temporary Add-on" button and select the zip you downloaded.
-5. Note: Go to `about:config` and change the value of `xpinstall.signatures.required` to false so that this add-on isnt removed on browser restart. This method only works for dev and nightly version of firefox browser. For vanilla firefox the only option to install this permanently is to wait for mozilla to approve this add-on.
-6. Visual Instruction: ![How to install this extension](https://github.com/rawfiul/remove_ans/blob/main/readme_assets/Firefox_loading.gif)
+[Click here to install](firefox_extension/remove_ans.xpi)
 
 
 ### Safari and other browser extensions will be worked upon on request
