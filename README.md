@@ -15,8 +15,7 @@ Watch it in Action:
 5. Click "Load Unpacked" and select the extracted folder, not the .zip file
 5. Visual Instruction: ![How to install this extension](https://github.com/rawfiul/remove_ans/blob/main/readme_assets/Chrome_loading.gif)
 
-### Firefox Extension
-[Click here to install directly](https://remove-ans.pages.dev/firefox_extension/remove_ans.xpi)
+### Firefox Extension: [Click here to install directly](https://remove-ans.pages.dev/firefox_extension/remove_ans.xpi)
 
 
 ### Safari and other browser extensions will be worked upon on request
