@@ -16,7 +16,7 @@ Watch it in Action:
 5. Visual Instruction: ![How to install this extension](https://github.com/rawfiul/remove_ans/blob/main/readme_assets/Chrome_loading.gif)
 
 ### Firefox Extension
-[Click here to install](firefox_extension/remove_ans.xpi)
+[Click here to install](https://raw.githubusercontent.com/rawfiul/remove_ans/main/firefox_extension/remove_ans.xpi)
 
 
 ### Safari and other browser extensions will be worked upon on request
