@@ -16,7 +16,7 @@ Watch it in Action:
 5. Visual Instruction: ![How to install this extension](https://github.com/rawfiul/remove_ans/blob/main/readme_assets/Chrome_loading.gif)
 
 ### Firefox Extension
-[Click here to install](https://raw.githubusercontent.com/rawfiul/remove_ans/main/firefox_extension/remove_ans.xpi)
+[Click here to install](https://addons.mozilla.org/firefox/downloads/file/4349846/remove_ans_iitm_assignments-3.xpi)
 
 
 ### Safari and other browser extensions will be worked upon on request
