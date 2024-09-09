@@ -13,6 +13,6 @@
       "48": "icon48.png",
       "96": "icon96.png"
     },
-    "update_url": "https://yourdomain.com/updates.xml"
+    "update_url": "https://raw.githubusercontent.com/rawfiul/remove_ans/main/chrome_extension/update.xml"
 }
   
