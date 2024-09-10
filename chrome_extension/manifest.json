@@ -1,4 +1,6 @@
 {
+"update_url": "https://clients2.google.com/service/update2/crx",
+
     "manifest_version": 3,
     "name": "Remove Ans - IITM Assignments",
     "description": "Remove Ans with one click",
@@ -12,7 +14,6 @@
     "icons": {
       "48": "icon48.png",
       "96": "icon96.png"
-    },
-    "update_url": "https://raw.githubusercontent.com/rawfiul/remove_ans/main/chrome_extension/update.xml"
+    }
 }
   
