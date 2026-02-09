@@ -26,7 +26,7 @@ function indMode() {
         checkAnsButton.click();
         // Exits the submit dailog popup
         setTimeout(() => {
-            var cancelButton = document.querySelector('.btn.btn-link.btn-cancel.ng-star-inserted');
+            var cancelButton = document.querySelector('button[aria-label="Cancel"]');
             if (cancelButton) {
                 cancelButton.click();
             }
