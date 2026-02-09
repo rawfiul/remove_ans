@@ -3,7 +3,7 @@
         "{bfd497b6-e9c1-488e-a8fd-8417bf5b2e6f}": {
             "updates": [
                 {
-                    "version": "3",
+                    "version": "3.5",
                     "update_link": "https://raw.githubusercontent.com/rawfiul/remove_ans/main/firefox_extension/remove_ans.xpi"
                 }
             ]
